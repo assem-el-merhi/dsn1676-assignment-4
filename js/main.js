@@ -54,22 +54,6 @@ berries2.forEach(function (item) {
   document.write('</dl>');
 });
 
-var writeDinos = function (allDinos) {
-    allDinos.forEach(function (item) {
-  document.write('<dl>'); 
-  
-  document.write('<dt>Weight:</dt>')
-  document.write('<dd>' + item.weight + '</dd>');
-    
-  document.write('<dt>Age:</dt>')
-  document.write('<dd>' + item.age + '</dd>');
-  
-  document.write('</dl>');
-    });
-};
-
-writeDinos( [trex, stego] );
-writeDinos( [stego, trex] );
 
 
 
