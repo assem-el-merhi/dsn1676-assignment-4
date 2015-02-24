@@ -81,5 +81,5 @@ var writeberries2 = function (allberries2) {
     });
 };
 
-
+writeberries2( [Blue, Grape, Red] );
 
